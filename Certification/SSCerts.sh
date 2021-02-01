@@ -4,6 +4,6 @@ sudo openssl req    -x509 \
                     -days 365 \
                     -newkey \
                     rsa:2048 \
-                    -keyout localhost.key \
-                    -out localhost.crt \
-                    -config localhost.conf
+                    -keyout jphas.duckdnsorg.key \
+                    -out jphas.duckdns.org.crt \
+                    -config jphas.duckdns.org.conf
