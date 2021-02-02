@@ -1,8 +1,10 @@
-sudo docker pull nginx
-sudo docker run --restart always \
-                -d nginx \
-                -p 80:80 \
-                -p 443:443 \
-                -v /home/pi/RaspTest/Nginx/Config:/etc/nginx/conf \
-                -v /home/pi/RaspTest/Nginx/Content:/usr/share/nginx/html \
-                -v /home/pi/RaspTest/Nginx/Certs:/etc/nginx/certs
+# sudo docker pull nginx
+sudo docker run \
+    --restart always \
+	--name Nginx \
+	--mount type=bind,source=/home/pi/RaspTest/Nginx/Content,target=/usr/share/nginx/html,readonly \
+	--mount type=bind,source=/home/pi/RaspTest/Nginx/Config,target=/etc/nginx/conf,readonly \
+	--mount type=bind,source=/home/pi/RaspTest/Nginx/Certs,target=/etc/nginx/certs,readonly \
+	-p 80:80 \
+	-p 443:443 \
+	-d nginx
