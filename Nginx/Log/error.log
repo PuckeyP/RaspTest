@@ -1,0 +1,31 @@
+2021/02/03 11:59:54 [emerg] 1#1: "log_format" directive is not allowed here in /etc/nginx/nginx.conf:19
+2021/02/03 11:59:58 [emerg] 1#1: "log_format" directive is not allowed here in /etc/nginx/nginx.conf:19
+2021/02/03 12:00:01 [emerg] 1#1: "log_format" directive is not allowed here in /etc/nginx/nginx.conf:19
+2021/02/03 12:00:05 [emerg] 1#1: "log_format" directive is not allowed here in /etc/nginx/nginx.conf:19
+2021/02/03 12:00:08 [emerg] 1#1: "log_format" directive is not allowed here in /etc/nginx/nginx.conf:19
+2021/02/03 12:00:12 [emerg] 1#1: "log_format" directive is not allowed here in /etc/nginx/nginx.conf:19
+2021/02/03 12:00:18 [emerg] 1#1: "log_format" directive is not allowed here in /etc/nginx/nginx.conf:19
+2021/02/03 12:00:28 [emerg] 1#1: "log_format" directive is not allowed here in /etc/nginx/nginx.conf:19
+2021/02/03 12:00:43 [emerg] 1#1: "log_format" directive is not allowed here in /etc/nginx/nginx.conf:19
+2021/02/03 12:01:12 [emerg] 1#1: unknown log format "main" in /etc/nginx/nginx.conf:17
+2021/02/03 12:02:06 [emerg] 1#1: unknown log format "main" in /etc/nginx/nginx.conf:17
+2021/02/03 12:03:08 [emerg] 1#1: unknown log format "main" in /etc/nginx/nginx.conf:17
+2021/02/03 12:03:19 [emerg] 1#1: unknown log format "main" in /etc/nginx/nginx.conf:17
+2021/02/03 12:03:23 [emerg] 1#1: unknown log format "main" in /etc/nginx/nginx.conf:17
+2021/02/03 12:03:26 [emerg] 1#1: unknown log format "main" in /etc/nginx/nginx.conf:17
+2021/02/03 12:03:30 [emerg] 1#1: unknown log format "main" in /etc/nginx/nginx.conf:17
+2021/02/03 12:03:34 [emerg] 1#1: unknown log format "main" in /etc/nginx/nginx.conf:17
+2021/02/03 12:03:38 [emerg] 1#1: unknown log format "main" in /etc/nginx/nginx.conf:17
+2021/02/03 12:03:44 [emerg] 1#1: unknown log format "main" in /etc/nginx/nginx.conf:17
+2021/02/03 12:03:53 [emerg] 1#1: unknown log format "main" in /etc/nginx/nginx.conf:17
+2021/02/03 12:12:50 [emerg] 1#1: "server" directive is not allowed here in /etc/nginx/conf.d/default.conf:1
+2021/02/03 12:12:53 [emerg] 1#1: "server" directive is not allowed here in /etc/nginx/conf.d/default.conf:1
+2021/02/03 12:12:58 [emerg] 1#1: "server" directive is not allowed here in /etc/nginx/conf.d/default.conf:1
+2021/02/03 12:13:02 [emerg] 1#1: "server" directive is not allowed here in /etc/nginx/conf.d/default.conf:1
+2021/02/03 12:13:05 [emerg] 1#1: "server" directive is not allowed here in /etc/nginx/conf.d/default.conf:1
+2021/02/03 12:13:10 [emerg] 1#1: "server" directive is not allowed here in /etc/nginx/conf.d/default.conf:1
+2021/02/03 12:13:16 [emerg] 1#1: "server" directive is not allowed here in /etc/nginx/conf.d/default.conf:1
+2021/02/03 12:13:25 [emerg] 1#1: "server" directive is not allowed here in /etc/nginx/conf.d/default.conf:1
+2021/02/03 12:13:40 [emerg] 1#1: "server" directive is not allowed here in /etc/nginx/conf.d/default.conf:1
+2021/02/03 12:14:08 [emerg] 1#1: "server" directive is not allowed here in /etc/nginx/conf.d/default.conf:1
+2021/02/03 12:15:02 [emerg] 1#1: "server" directive is not allowed here in /etc/nginx/conf.d/default.conf:1
