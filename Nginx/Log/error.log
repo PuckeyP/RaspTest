@@ -29,3 +29,4 @@
 2021/02/03 12:13:40 [emerg] 1#1: "server" directive is not allowed here in /etc/nginx/conf.d/default.conf:1
 2021/02/03 12:14:08 [emerg] 1#1: "server" directive is not allowed here in /etc/nginx/conf.d/default.conf:1
 2021/02/03 12:15:02 [emerg] 1#1: "server" directive is not allowed here in /etc/nginx/conf.d/default.conf:1
+2021/02/03 12:33:07 [error] 29#29: *37 open() "/usr/share/nginx/html/.git/config" failed (2: No such file or directory), client: 139.28.217.222, server: jphas.duckdns.org, request: "GET /.git/config HTTP/1.1", host: "jphas.duckdns.org"
