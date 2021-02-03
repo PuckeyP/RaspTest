@@ -4,7 +4,11 @@ sudo docker run \
 	--name Nginx \
 	--mount type=bind,source=/home/pi/RaspTest/Nginx/Content,target=/usr/share/nginx/html,readonly \
 	--mount type=bind,source=/home/pi/RaspTest/Nginx/Config,target=/etc/nginx/conf,readonly \
+	--mount type=bind,source=/home/pi/RaspTest/Nginx/Certs,target=/etc/ssl/private,readonly \
 	--mount type=bind,source=/home/pi/RaspTest/Nginx/Certs,target=/etc/nginx/certs,readonly \
 	-p 80:80 \
 	-p 443:443 \
 	-d nginx
+
+
+#	--mount type=bind,source=/home/pi/RaspTest/Nginx/Certs,target=/etc/nginx/certs,readonly \
