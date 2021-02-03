@@ -30,3 +30,5 @@
 2021/02/03 12:14:08 [emerg] 1#1: "server" directive is not allowed here in /etc/nginx/conf.d/default.conf:1
 2021/02/03 12:15:02 [emerg] 1#1: "server" directive is not allowed here in /etc/nginx/conf.d/default.conf:1
 2021/02/03 12:33:07 [error] 29#29: *37 open() "/usr/share/nginx/html/.git/config" failed (2: No such file or directory), client: 139.28.217.222, server: jphas.duckdns.org, request: "GET /.git/config HTTP/1.1", host: "jphas.duckdns.org"
+2021/02/03 16:16:47 [error] 23#23: *3 open() "/usr/share/nginx/html/owa/auth/logon.aspx" failed (2: No such file or directory), client: 192.241.216.39, server: jphas.duckdns.org, request: "GET /owa/auth/logon.aspx?url=https%3a%2f%2f1%2fecp%2f HTTP/1.1", host: "86.84.94.141"
+2021/02/03 19:46:45 [error] 23#23: *9 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.1.211, server: jphas.duckdns.org, request: "GET /favicon.ico HTTP/1.1", host: "jphas.duckdns.org", referrer: "https://jphas.duckdns.org/"
